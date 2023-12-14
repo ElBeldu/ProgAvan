@@ -1,0 +1,165 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{4A9F50CB-60F6-4076-97FE-ADF8FC26FDF5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Memofinal</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\19\3aecc675e7d4600fde2d37cf350bce7a056948" />
+    <None Include=".git\objects\1a\f7de150c99c12dd67a509fe57c10d63e4eeb04" />
+    <None Include=".git\objects\1f\f0c423042b46cb1d617b81efb715defbe8054d" />
+    <None Include=".git\objects\39\645652af62950ebf3b28ec3a5400dcec30b1c4" />
+    <None Include=".git\objects\43\bc4d9a77d8546b5001925106283aac515b5599" />
+    <None Include=".git\objects\4f\738af876d61af536df1a26cbf842b5874441c1" />
+    <None Include=".git\objects\55\3b80c22832c43c73ac12fc74098b9c8ec2230c" />
+    <None Include=".git\objects\55\516c7aaa3591604865d4cd18379f8f650c3104" />
+    <None Include=".git\objects\5a\17ca4312dbe9e40747fd96778f44e5a563f00d" />
+    <None Include=".git\objects\5e\921e0e35cf1ff3ef3276c8fd48b7bdcb9b45cb" />
+    <None Include=".git\objects\93\a94883b27bbf94ba376d380891487d1ccaed3b" />
+    <None Include=".git\objects\94\91a2fda28342ab358eaf234e1afe0c07a53d62" />
+    <None Include=".git\objects\a0\3ffc9631d786d947876c9723a4207b391f98ca" />
+    <None Include=".git\objects\a3\6fef363ba0ec539ddafc3b9df345a6cfcb7a3a" />
+    <None Include=".git\objects\b1\b1bbd6e838d28745120a5ebf5771a9f5e65039" />
+    <None Include=".git\objects\b5\ae201adce4e2a476c069d9218a71fd6acf5957" />
+    <None Include=".git\objects\bb\f9fdcf397253a4d32646a62b7a1d3361213522" />
+    <None Include=".git\objects\c4\8a83ebc09e6ee3665487e031ddee1e0667c868" />
+    <None Include=".git\objects\c5\e267e380c44962b55c0d2ffe311bc5616334e3" />
+    <None Include=".git\objects\dd\18d86d066b4a8ff78a21da20ff1eac86818ce3" />
+    <None Include=".git\objects\eb\491c697f569deecbff561a677924615488ddf1" />
+    <None Include=".git\objects\ee\4411446071412dc204d93294d5d0ab73ac25cf" />
+    <None Include=".git\ORIG_HEAD" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include=".vs\Memotest\v17\.suo" />
+    <None Include=".vs\ProgAvan\copilot\137728959" />
+    <None Include=".vs\ProgAvan\FileContentIndex\03a6d1fe-25b4-4f11-8827-6cae3ce9a950.vsidx" />
+    <None Include=".vs\ProgAvan\FileContentIndex\735cd28d-6c37-4b9b-ae06-f6500c3ab73a.vsidx" />
+    <None Include=".vs\ProgAvan\FileContentIndex\73fbb4ad-28ad-4ff7-be41-7af7ae10db93.vsidx" />
+    <None Include=".vs\ProgAvan\FileContentIndex\b6b0fc40-013c-40b0-b1d1-20183ec0631e.vsidx" />
+    <None Include=".vs\ProgAvan\v17\.suo" />
+    <None Include="app.config" />
+    <None Include="ProgAvan\App.config" />
+    <None Include="ProgAvan\bin\Debug\ProgAvan.exe.config" />
+    <None Include="ProgAvan\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="ProgAvan\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="ProgAvan\obj\Debug\ProgAvan.csproj.AssemblyReference.cache" />
+    <None Include="ProgAvan\obj\Debug\ProgAvan.csproj.CoreCompileInputs.cache" />
+    <None Include="ProgAvan\obj\Debug\ProgAvan.csproj.GenerateResource.cache" />
+    <None Include="ProgAvan\ProgAvan.csproj" />
+    <None Include="ProgAvan\Properties\Settings.settings" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="ProgAvan\bin\Debug\pics\1.png" />
+    <Content Include="ProgAvan\bin\Debug\pics\2.png" />
+    <Content Include="ProgAvan\bin\Debug\pics\3.png" />
+    <Content Include="ProgAvan\bin\Debug\pics\4.png" />
+    <Content Include="ProgAvan\bin\Debug\pics\5.png" />
+    <Content Include="ProgAvan\bin\Debug\pics\6.png" />
+    <Content Include="ProgAvan\bin\Debug\pics\7.png" />
+    <Content Include="ProgAvan\bin\Debug\pics\8.png" />
+    <Content Include="ProgAvan\bin\Debug\ProgAvan.exe" />
+    <Content Include="ProgAvan\bin\Debug\ProgAvan.pdb" />
+    <Content Include="ProgAvan\icono.ico" />
+    <Content Include="ProgAvan\obj\Debug\ProgAvan.csproj.FileListAbsolute.txt" />
+    <Content Include="ProgAvan\obj\Debug\ProgAvan.exe" />
+    <Content Include="ProgAvan\obj\Debug\ProgAvan.pdb" />
+    <Content Include="ProgAvan\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="ProgAvan\Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ProgAvan\Form1.cs" />
+    <Compile Include="ProgAvan\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgAvan\obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Include="ProgAvan\Program.cs" />
+    <Compile Include="ProgAvan\Properties\AssemblyInfo.cs" />
+    <Compile Include="ProgAvan\Properties\Resources.Designer.cs" />
+    <Compile Include="ProgAvan\Properties\Settings.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProgAvan\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgAvan\obj\Debug\ProgAvan.Form1.resources" />
+    <EmbeddedResource Include="ProgAvan\obj\Debug\ProgAvan.Properties.Resources.resources" />
+    <EmbeddedResource Include="ProgAvan\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\Memofinal\v17\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
